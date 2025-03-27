@@ -1,4 +1,4 @@
-Simple Chat Room Program.
+Simple Chat Room Program
 
 Build the program by running
 
