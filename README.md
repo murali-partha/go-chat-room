@@ -9,7 +9,7 @@ make build
 Start the server using the command
 
 ```
-chat-room server
+chat-room start
 ```
 
 Join the server using
