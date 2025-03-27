@@ -1,15 +1,15 @@
-Simple Chat Room Program.
+Simple Chat Room Program
 
 Build the program by running
 
 ```
-go build .
+make build
 ```
 
 Start the server using the command
 
 ```
-chat-room server
+chat-room start
 ```
 
 Join the server using
