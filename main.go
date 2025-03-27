@@ -14,7 +14,14 @@ func main() {
 		server()
 	}
 	if os.Args[1] == "join" {
+		if len(os.Args) < 3 {
+			fmt.Println("Please provide a name to join the chat room")
+			return
+		}
 		client(os.Args[2])
+	} else {
+		fmt.Println("Invalid mode : \"", os.Args[1], "\". Valid modes are start and join")
+
 	}
 }
 
